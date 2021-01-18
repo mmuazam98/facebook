@@ -112,3 +112,13 @@ body {
 .container .right button:hover {
   background: #3ea327;
 }
+
+.container .left ul {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 18px;
+}
+
+.container .left li {
+  margin-top: 10px;
+}
