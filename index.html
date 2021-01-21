@@ -17,17 +17,21 @@
         <form class="login-form" action="#">
           <input
             type="email"
-            name="email"
-            required
+            id="email"
             placeholder="Email address or phone number"
+            autocomplete="off"
           />
-          <input type="password" name="password" required placeholder="Password" />
-
-          <input type="submit" value="Log In" />
+          <input type="password" id="password" placeholder="Password" />
+          <input type="submit" id="submit" value="Log In" />
+          <div>
+            <a href="#" id="forgot">Forgotten password?</a>
+          </div>
+          <hr />
+          <button>Create new account</button>
         </form>
-        <h5><a href="#">Forgotten password?</a></h5>
-        <hr />
-        <button>Create new account</button>
+        <p id="bottom">
+          <strong>Create a Page</strong> for a celebrity, band or business.
+        </p>
       </div>
     </div>
   </body>
